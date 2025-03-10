@@ -7,8 +7,8 @@
 
 .. _migration_4.1:
 
-Migration guide to Zephyr v4.1.0 (Working Draft)
-################################################
+Migration guide to Zephyr v4.1.0
+################################
 
 This document describes the changes required when migrating your application from Zephyr v4.0.0 to
 Zephyr v4.1.0.
@@ -534,10 +534,10 @@ Video
 Watchdog
 ========
 
+* Renamed the ``compatible`` from ``nxp,kinetis-wdog32`` to :dtcompatible:`nxp,wdog32`.
+
 Wi-Fi
 =====
-
-* Renamed the ``compatible`` from ``nxp,kinetis-wdog32`` to :dtcompatible:`nxp,wdog32`.
 
 * The config options :kconfig:option:`CONFIG_NXP_WIFI_BUILD_ONLY_MODE` and
   :kconfig:option:`CONFIG_NRF_WIFI_BUILD_ONLY_MODE` are now unified under
